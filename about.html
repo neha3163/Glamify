@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — GLAMIFY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+
+<link rel="stylesheet" href="darkmode.css">
+<style>
+  .about-top {
+  padding: 140px 6% 70px;
+  text-align: center;
+  background: linear-gradient(135deg, #fff5f8, #fce8f0);
+}
+.about-top h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 6vw, 66px);
+  color: --dark;
+}
+.about-top h1 em { font-style: italic; color: var(--pink); }
+.about-top p {
+  margin: 18px auto 0; max-width: 620px;
+  font-size: 16px; color: var(--muted); line-height: 1.8;
+}
+
+
+.about-cards {
+  display: grid;
+   grid-template-columns: 1fr 1fr; gap: 24px; padding: 70px 6%;
+}
+.acard {
+  background: white; border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 20px; padding: 44px; transition: 0.35s;
+}
+.acard:hover { transform: translateY(-6px); box-shadow: 0 16px 44px rgba(232,53,122,0.1); border-color: var(--border); }
+.acard h3 { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--pink); margin-bottom: 14px; }
+.acard p  { color: var(--muted); line-height: 1.8; font-size: 15px; }
+
+
+.values-section { padding: 0 6% 70px; }
+.vals-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.vcard {
+  background: var(--light); border-radius: 16px; padding: 30px 20px; transition: 0.3s;
+}
+.vcard:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(232,53,122,0.12); }
+.vcard h4 { font-size: 15px; font-weight: 700; color: var(--pink); margin-bottom: 8px; }
+.vcard p  { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+.about-cta {
+  padding: 70px 6%;
+  background: linear-gradient(135deg, var(--dark), #3d0022);
+  text-align: center;
+}
+.about-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(26px, 4vw, 44px);
+   color: white;
+    margin-bottom: 14px;
+}
+.about-cta p { color: rgba(255,255,255,0.55); font-size: 15px; margin-bottom: 30px; }
+
+
+@media(max-width:960px) {
+  .vals-grid   { grid-template-columns: repeat(2,1fr); }
+  .about-cards { grid-template-columns: 1fr; }
+}
+@media(max-width:600px) {
+  .vals-grid 
+  {
+     grid-template-columns: 1fr 1fr;
+   }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">Glamify</a>
+  <div class="nav-menu">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="shop.html">Shop</a>
+    <a class="nav-link active" href="about.html">About</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="nav-cta" href="shop.html">Shop Now ✨</a>
+  </div>
+</nav>
+                                                                                                                                                                              
+
+<div class="about-top">
+  <h1>About <em>Glamify</em></h1>
+  <p>A luxury beauty house celebrating confidence, femininity and iconic self-expression. Every creation blends premium craftsmanship with modern elegance.</p>
+</div>
+
+
+<div class="about-cards">
+  <div class="acard">
+    <h3>✨ Our Vision</h3>
+    <p>To redefine global beauty standards through timeless glamour, premium formulations and couture-inspired aesthetics. We believe beauty is a language everyone deserves to speak fluently.</p>
+  </div>
+  <div class="acard">
+    <h3>💎 Our Craft</h3>
+    <p>Each Glamify piece is developed with precision, elegance and uncompromising quality — delivering an elite beauty experience that feels personal, powerful, and unforgettable.</p>
+  </div>
+</div>
+
+
+<section class="values-section">
+  <div class="section-header">
+    <div class="section-eyebrow">Core Philosophy</div>
+    <h2 class="section-title">What We <em>Stand For</em></h2>
+  </div>
+  <div class="vals-grid">
+    <div class="vcard"><h4>🌸 Feminine Strength</h4><p>Empowering confidence through the art and joy of beauty.</p></div>
+    <div class="vcard"><h4>👑 Prestige Quality</h4><p>Luxury without limits — premium in every drop.</p></div>
+    <div class="vcard"><h4>🌿 Conscious Beauty</h4><p>Ethical, cruelty-free, planet-conscious at every step.</p></div>
+    <div class="vcard"><h4>💖 Timeless Elegance</h4><p>Designed to stay iconic, season after season.</p></div>
+  </div>
+</section>
+
+
+<section class="about-cta">
+  <h2>Ready to Find Your Glow?</h2>
+  <p>Explore 60+ luxury beauty products curated for you.</p>
+  <a class="btn-filled" href="shop.html">Shop the Vault 💎</a>
+</section>
+
+
+<footer>
+  <div class="f-logo">Glamify</div>
+  <div class="f-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="f-copy">© 2026 Glamify Beauty ✨</div>
+</footer>
+
+</body>
+<script src="darkmode.js"></script>
+</html>
+
+
