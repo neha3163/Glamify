@@ -53,27 +53,6 @@ Glamify is built using front-end web technologies and showcases how an online sh
 
 ---
 
-# 🖼️ Screenshots
-
-## 🏠 Homepage
-
-```markdown
-![Homepage](images/homepage.png)
-```
-
-## 🛒 Product Section
-
-```markdown
-![Products](images/products.png)
-```
-
-## 📱 Responsive Layout
-
-```markdown
-![Responsive Design](images/responsive.png)
-```
-
----
 
 # 🛠️ Technologies Used
 
@@ -97,30 +76,6 @@ Glamify/
 ├── assets/
 └── README.md
 ```
-
----
-
-# ⚙️ Installation Guide
-
-Follow these steps to run the project locally on your system.
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/neha3163/Glamify.git
-```
-
-## 2️⃣ Navigate to Project Folder
-
-```bash
-cd Glamify
-```
-
-## 3️⃣ Open the Project
-
-Simply open the `index.html` file in your browser.
-
----
 
 # 🌐 Live Demo
 
@@ -146,10 +101,8 @@ Through this project, I learned:
 # 📈 Future Improvements
 
 🚀 User Authentication System  
-🚀 Shopping Cart Functionality  
 🚀 Payment Gateway Integration  
-🚀 Product Search & Filters  
-🚀 Wishlist Feature  
+🚀 Product Search & Filters    
 🚀 Backend Integration  
 🚀 Database Connectivity  
 🚀 Admin Dashboard  
@@ -166,22 +119,3 @@ This project can also serve as:
 - A beginner-friendly e-commerce template
 
 ---
-
-# 👩‍💻 Author
-
-### Neha
-
-Frontend Developer & Web Design Enthusiast
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.  
-Your support is appreciated!
-
----
-
-# 📜 License
-
-This project is open-source and available under the MIT License.
